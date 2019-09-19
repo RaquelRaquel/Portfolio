@@ -4,7 +4,7 @@
 
 ### Python 
 
-[Finding Missing Data and Removing Duplicates](/sample_page)
+[Finding Missing Data and Removing Duplicates](/project1_page)
 <br>
 <img src="images/missing_data.jpeg?raw=true"/>
 
