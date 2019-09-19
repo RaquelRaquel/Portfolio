@@ -1,12 +1,11 @@
-title: Raquel Merced # your name (or website title) here
+title: "Raquel Merced" # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-   Professional with experience in math, research and data analysis, 
+description: 
+   "Professional with experience in math, research and data analysis, 
    seeks position that allows me to apply these skills and utilize prior experience.  
-   Trained in statistics and computer programming languages with solid communication skills.
-  <br><br>
-  Second description 
-  <br><br>
+   Trained in statistics and computer programming languages with solid communication skills."
+
+
   <a href="https://www.linkedin.com/in/raquel-merced/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
