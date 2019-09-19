@@ -1,17 +1,7 @@
-# Profitable App Profiles for the App Store and Google Play Markets
+# Find and Remove Missing Data, and Remove Duplicate Entries
 
 
-Write a short introduction where you explain (in no more than two paragraphs):
-
-* What the project is about.
-<br>This project is to use data analysis skills to figure out what kind of apps do user like to download.  The apps are to be free and funded by advertisements.  The following datasets were used for this project: 
->* 1) a __[data set](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
->* 2) a __[data set](https://www.kaggle.com/lava18/google-play-store-apps/downloads/google-play-store-apps.zip/6)__ containing data about approximately 10,000 Android apps from Google Play that was collected in August 2018.
-<br>
-<br>
-* What your goal is in this project.
-<br>The goal is to help developers understand what type of apps are likely to attract more users on Google Play and the App Store. 
-
+The goal is to find missing data, remove the missing data and to remove any duplicate entries.
 
 The code below opens, reads, and list data for both files, Google Play and App Store.  
 
