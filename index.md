@@ -6,7 +6,7 @@
 
 [Finding Missing Data and Removing Duplicates](/sample_page)
 <br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/missing_data.jpeg?raw=true"/>
 
 ---
 <!--
