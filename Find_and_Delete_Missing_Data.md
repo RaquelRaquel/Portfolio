@@ -2,7 +2,7 @@
 # Find and Delete Missing Data
 
 
-###The goal is to find and delete missing data from a given dataset.
+The goal is to find and delete missing data from a given dataset.
 
 
 The code below opens, reads, and list data for both files, Google Play and App Store.  
