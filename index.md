@@ -9,7 +9,7 @@
 <img src="images/missing_data.jpeg?raw=true"/>
 
 ---
-
+<!--
 [Profitable App Profiles for the App Store and Google Play Markets](/pdf/sample_presentation.pdf)
 <br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -32,7 +32,7 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-
+-->
 
 
 
