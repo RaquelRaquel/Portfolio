@@ -4,7 +4,7 @@
 
 ### Python 
 
-[Find and Delete Missing Data](/P1__Find and Delete Missing Data.md)
+[Find and Delete Missing Data](/Poject1_page)
 <br>
 <img src="images/missing_data.jpeg?raw=true"/>
 
