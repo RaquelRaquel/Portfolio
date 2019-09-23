@@ -7,7 +7,8 @@
 The goal is to help is to separate any duplicates that we find in the dataset.  This allows us to not count a certain app more than once. When we separate the duplicates, we want to keep the record with the highest number of reviews as that will be the most recent information.
 
 
-
+<br> 
+<br> 
 The information for this exercise comes from the following datasets.
 <br> 
 > 1) a __[data set](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
