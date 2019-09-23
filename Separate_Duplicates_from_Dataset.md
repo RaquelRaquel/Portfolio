@@ -9,8 +9,9 @@
 <br> 
 The information for this exercise comes from the following datasets.
 <br> 
->* 1) a __[data set](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
->* 2) a __[data set](https://www.kaggle.com/lava18/google-play-store-apps/downloads/google-play-store-apps.zip/6)__ containing data about approximately 10,000 Android apps from Google Play that was collected in August 2018.
+1) __[Mobile App Store ( 7200 apps)](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
+<br>
+2) __[Google Play Store Apps](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 10,000 Android apps from Google Play that was collected in August 2018.
 <br>
 <br>
 
