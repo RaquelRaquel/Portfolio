@@ -9,16 +9,24 @@
 <img src="images/missing_data.jpeg?raw=true"/>
 
 ---
+
+[Separate Duplicate Data](/P1__Separate_Duplicates_from_Dataset)
+<br>
+<img src="images/separate_duplicates.jpg?raw=true"/>
+
+
+
 <!--
 [Profitable App Profiles for the App Store and Google Play Markets](/pdf/sample_presentation.pdf)
 <br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/separate_duplicates.jpg?raw=true"/>
 
 ---
 
 
 
-[Project 3 Title](http://example.com/)
+
+[Profitable App Profiles for the App Store and Google Play Markets](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -33,6 +41,7 @@
 
 ---
 -->
+
 
 
 
