@@ -10,7 +10,7 @@
 
 ---
 
-[Separate Duplicate Data](/P1__Separate_Duplicates_from_Dataset)
+[Separate Duplicate Data](/Separate_Duplicates_from_Dataset)
 <br>
 <img src="images/separate_duplicates.jpg?raw=true"/>
 
