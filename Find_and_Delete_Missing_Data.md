@@ -2,7 +2,16 @@
 # Find and Delete Missing Data
 
 
-The goal is to find and delete missing data from a given dataset.
+The goal is to find and delete missing data from a given dataset.  This method is to help clean the dataset.
+<br> 
+The information for this exercise comes from the following datasets:
+<br> 
+__[Mobile App Store ( 7200 apps)](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
+<br>
+__[Google Play Store Apps](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 10,000 Android apps from Google Play that was collected in August 2018.
+<br>
+<br>
+
 
 
 The code below opens, reads, and list data for both files, Google Play and App Store.  
@@ -28,7 +37,7 @@ android_header = app_data_android[0]
 android_data = app_data_android[1:]
 ```
 
-In order to explore the dataset, we create a function called `explore_data()`.  The first parameter, `dataset` is the list we will run through the function.  The second and third parameters, `start`and `end`, are to indicate which row to start with and which row to end with (please note the `end` value is the number after the last row you want).  The last parameter, `rows_and_columns`, is assigned as `False`, to indicate the assumption that there are no rows and columns.  
+To explore the dataset, we create a function called `explore_data()`.  The first parameter, `dataset`, is the list we will run through the function.  The second and third parameters, `start`and `end`, are to indicate which row to start with and which row to end with (please note the `end` value is the number after the last row you want).  The last parameter, `rows_and_columns`, is assigned as `False`, to indicate the assumption that there are no rows and columns.  
 <br>
 Inside the `explore data()` function, there are three activities happening: 1) a new variable is assigned using the indicated parameters, 2) a for-loop statement, and 3) a conditional statement.  The variable, `dataset_slice`, is using the parameters: `dataset`, `start`, and `end`, to create the range of rows.  The for-loop uses `data_slice` to print each row determined by the `start` and `end` value, with a space in between each row. The conditional statement shows that if the parameter, `rows_and_columns`, is "True", then to find and print the number of rows and columns.
 <br>
@@ -46,7 +55,7 @@ def explore_data(dataset, start, end, rows_and_columns=False):
         print('Number of columns:', len(dataset[0]))
 ```
 
-Below, the header and data rows 1 through 4 are printed for the ios apps.  The `rows_and_columns` were assigned "True", in order to count the number of columns and rows.
+Below, the header and data records 1 through 4 are printed for the ios apps.  The `rows_and_columns` were assigned "True", in order to count the number of columns and rows.
 
 
 
@@ -84,7 +93,7 @@ The ios data set appears to have 7,197 rows (not including the header) and 17 co
 
 <br>
 <br>
-Below, the header and data rows 1 through 4 are printed for the Android apps.  The `rows_and_columns` were assigned "True", in order to count the number of columns and rows.
+Below, the header and data records 1 through 4 are printed for the Android apps.  The `rows_and_columns` were assigned "True", in order to count the number of columns and rows.
 
 
 
@@ -120,10 +129,10 @@ The Android app dataset appears to have 10,841 rows (not including the header) a
 
 ### Missing Data Function
 
-Below, is a function created to see if any of the rows are missing data.  This allows us to identify the row and delete it for data cleaning.  The function, `missing_data()`, uses two parameters: 1)the dataset header, and 2) the rows of data (not including the header).
+A function created to see if any of the rows are missing data.  This allows us to identify the row and delete it.  The function, `missing_data()`, uses two parameters: 1)the dataset header, and 2) the rows of data (not including the header).
 <br>
 * The function first identifies the length of the header and assigns it to `header_length`.  A print statement is created to indicate the number of values in the header. The function also prints what information is in the header in order to do a comparison. 
-* The function completes a for-loop inside the `dataset_data` parameter.  In the for-loop, there is a variable assigned, `row_length`, to find the length of each variable.  A conditional statement is in the loop; if the `row_length` value is not equal to the `header_length` value, then there is a printed statement identifying which index-number row to look at and what information is in that row.
+* The function completes a for-loop inside the `dataset_data` parameter.  In the for-loop, there is a variable, `row_length`, to find the length of each record.  A conditional statement is in the loop; if the `row_length` value is not equal to the `header_length` value, then there is a printed statement identifying which index-number record to look at and what information is in that record.
 * Outside the for-loop is a final if-stament that says if `row_length` equals `header_length`, then print a statement saying that all other rows appear to be the same length.  This allows to print a statement incase there are datasets that have all data accounted for in each row. 
 
 
@@ -208,7 +217,7 @@ missing_data(ios_header, ios_data)
 
 
 
-Looking at the results from above, using the `missing_data()` function, we see the statement that all other rows appear to be the same length as the header.  This indicates that all data appears to be accounted for.
+Looking at the results from above, we see the statement that all other rows appear to be the same length as the header.  This indicates that all data appears to be accounted for.
 <br>
 <br>
 
