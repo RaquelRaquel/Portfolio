@@ -4,6 +4,8 @@
 
 The goal is to find and delete missing data from a given dataset.  This method is to help clean the dataset.
 <br> 
+<br> 
+<br> 
 The information for this exercise comes from the following datasets:
 <br> 
 __[Mobile App Store ( 7200 apps)](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
