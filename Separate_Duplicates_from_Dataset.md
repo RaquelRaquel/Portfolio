@@ -3,11 +3,11 @@
 
 
 
-<br>The goal is to help is to separate any duplicates that we find in the dataset.  This allows us to not count a certain app more than once. When we separate the duplicates, we want to keep the record with the highest number of reviews as that will be the most recent information.
+<br>The goal is to separate any duplicates that we find in the dataset.  This is so we do not count a certain app more than once. When we separate the duplicates, we want to keep the record with the highest number of reviews as that record will be the most recent information.
 
 
 <br> 
-The information for this exercise comes from the following datasets.
+The information for this exercise comes from the following datasets:
 <br> 
 __[Mobile App Store ( 7200 apps)](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/downloads/app-store-apple-data-set-10k-apps.zip/7)__  containing data about approximately 7,000 iOS apps from the App Store that was collected in July 20171).
 <br>
@@ -38,9 +38,9 @@ android_header = app_data_android[0]
 android_data = app_data_android[1:]
 ```
 
-In order to explore the dataset, we create a function called `explore_data()`.  The first parameter, `dataset` is the list we will run through the function.  The second and third parameters, `start`and `end`, are to indicate which row to start with and which row to end with (please note the `end` value is the number after the last row you want).  The last parameter, `rows_and_columns`, is assigned as `False`, to indicate the assumption that there are no rows and columns.  
+In order to explore the dataset, we create a function called `explore_data()`.  The first parameter, `dataset`, is the list we will run through the function.  The second and third parameters, `start`and `end`, are to indicate which row to start with and which row to end with (please note the `end` value is the number after the last row you want).  The last parameter, `rows_and_columns`, is assigned `False`, to indicate the assumption that there are no rows and columns.  
 <br>
-Inside the `explore data()` function, there are three activities happening: 1) a new variable is assigned using the indicated parameters, 2) a for-loop statement, and 3) a conditional statement.  The variable, `dataset_slice`, is using the parameters: `dataset`, `start`, and `end`, to create the range of rows.  The for-loop uses `data_slice` to print each row determined by the `start` and `end` value, with a space in between each row. The conditional statement shows that if the parameter, `rows_and_columns`, is "True", then to find and print the number of rows and columns.
+Inside the `explore data()` function, there are three activities happening: 1) a new variable is assigned using the indicated parameters, 2) a for-loop statement, and 3) a conditional statement.  The variable, `dataset_slice`, uses the parameters: `dataset`, `start`, and `end`, to create the range of rows.  The for-loop uses `data_slice` to print each row determined by the `start` and `end` value, with a space in between each row. The conditional statement shows that if the parameter, `rows_and_columns`, is "True", then to find and print the number of rows and columns.
 <br>
 
 
@@ -94,7 +94,7 @@ The ios data set appears to have 7,197 rows (not including the header) and 17 co
 
 <br>
 <br>
-Below, the header and data rows 1 through 4 are printed for the Android apps.  The `rows_and_columns` were assigned "True", in order to count the number of columns and rows.
+Below, the header and data rows 1 through 4 are printed for the Android apps.  The `rows_and_columns` are assigned "True", in order to count the number of columns and rows.
 
 
 
@@ -135,7 +135,7 @@ The Android app dataset appears to have 10,841 rows (not including the header) a
 
 ###  Part 1 (Finding Duplicate Rows)
 
-In the dataset, we can see there are duplicate entries for the same apps.  Below is an example of duplicate entries from the Android dataset.
+In the dataset, we can see there are duplicate entries for the same apps.  Below shows an example of duplicate entries from the Android dataset.
 
 
 ```python
@@ -153,11 +153,11 @@ for app in app_data_android:
     ['Instagram', 'SOCIAL', '4.5', '66509917', 'Varies with device', '1,000,000,000+', 'Free', '0', 'Teen', 'Social', 'July 31, 2018', 'Varies with device', 'Varies with device']
 
 
-Above, we see there are four entries for the Instagram app.  The fourth item in each row, shows the number of reviews that have taken place for the Instagram app.  Later on, we are going to keep the row with the highest review and then delete the rest.
+We see there are four entries for the Instagram app.  The fourth item in each row, shows the number of reviews that have taken place for the Instagram app.  Later on, we are going to keep the row with the highest review and then separate the rest.
 <br>
 <br>
 <br>
-Below, a for-loop is created to collect all duplicates.  The `duplicate_apps[]` and `unique_apps[]` are initially created as empty lists.  A for-loop is created to append to the list of either the duplicate or unique app.  Each row of data goes through the for-loop and the app-name is initially added to the `unique_app[]` list if it is the first time.  In the for-loop, if a name is already identified as being in the `unique_apps[]` list, then any additional data that has the same app-name is added to the `duplicate_apps[]` list.  Lastly, there is a print text on the number of duplicates and an example of the first 15 duplicated names.
+A for-loop is created to collect all duplicates.  The `duplicate_apps[]` and `unique_apps[]` are initially created as empty lists.  A for-loop is created to append to the list of either the duplicate or unique app.  Each row of data goes through the for-loop and the app-name is initially added to the `unique_app[]` list if it is the first time.  In the for-loop, if a name is already identified as being in the `unique_apps[]` list, then any additional data that has the same app-name is added to the `duplicate_apps[]` list.  Lastly, there is a print text on the number of duplicates and examples of the first 15 duplicated names.
 
 
 ```python
@@ -191,7 +191,7 @@ Based on the results from above, we can see that there are 1,181 duplicate names
 
 ### Part 2 (Using a Dictionary)
 <br>
-Below, we created a dictionary to retain all apps with their highest number of reviews (and no duplicates).  To start, we created an empty dictionary called `review_max`.  A for-loop is created to go through each record for the Android dataset.  Initially, all app-names will be deposited into the `review_max` because they did not exist there before. Afterwards, if the app-name is found in `review_max` dictionary and if the number of reviews for the app (in the dictionary) is less than the number of reviews being presented in the iteration, then the higher value of number of reviews is updated into the dictionary.  
+We create a dictionary to retain all apps with their highest number of reviews (and no duplicates).  To start, we create an empty dictionary called `review_max`.  A for-loop is created to go through each record for the Android dataset.  Initially, all app-names will be deposited into the `review_max` because they did not exist there before. Afterwards, if the app-name is found in `review_max` dictionary and if the number of reviews for the app (in the dictionary) is less than the number of reviews being presented in the iteration, then the higher value of number of reviews is updated into the dictionary.  
 
 
 ```python
@@ -217,10 +217,10 @@ print("Acual length: ", len(review_max))
     Acual length:  9659
 
 
-Above, we see that the numbers match.  Our expected number of records we have is 9,659 records and the actual number of records in our dictionary is 9,659.
+Above, we see that the length values match.  Our expected number of records we have is 9,659 records and the actual number of records in our dictionary is 9,659.
 <br>
 <br>
-Below, we seperate the records to only have the unique apps into a list labelled, `android_clean[]`.  To do this, we create a for-loop that will iterate through the `android_data` dataset. An if-statement is created so that Python can iterate the dataset to determine if the `n_reviews` value is the same as the value listed in the maximum review dictionary.  If so, and if the app `name` does not already exist in the `already_listed` list, then the app record is appended to the `android_clean` list and to the `already_added` list.  The `already_added` list serves as a way to block any duplicates from getting into the `android_clean` list.  
+We seperate the records to only have the unique apps into a list labelled, `android_clean[]`.  To do this, we create a for-loop that will iterate through the `android_data` dataset. An if-statement is created so that Python can iterate the dataset to determine if the `n_reviews` value is the same as the value listed in the maximum review dictionary.  If so, and if the app `name` does not already exist in the `already_listed` list, then the app record is appended to the `android_clean` list and to the `already_added` list.  The `already_added` list serves as a way to block any duplicates from getting into the `android_clean` list.  
 
 
 ```python
