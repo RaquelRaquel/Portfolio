@@ -1,11 +1,9 @@
 
 # Separate Duplicates from Dataset
+<br>
+The goal is to separate any duplicates that we find in the dataset.  This is so we do not count a certain app more than once. When we separate the duplicates, we want to keep the record with the highest number of reviews as that record will be the most recent information.
 
-
-
-<br>The goal is to separate any duplicates that we find in the dataset.  This is so we do not count a certain app more than once. When we separate the duplicates, we want to keep the record with the highest number of reviews as that record will be the most recent information.
-
-
+<br> 
 <br> 
 The information for this exercise comes from the following datasets:
 <br> 
