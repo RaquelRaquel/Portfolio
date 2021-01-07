@@ -16,7 +16,7 @@ __[Google Play Store Apps](https://www.kaggle.com/ramamet4/app-store-apple-data-
 
 
 
-The code below opens, reads, and list data for both files, Google Play and App Store.  
+The code below opens, reads, and list data for both files: Google Play and App Store.  
 
 
 ```python
