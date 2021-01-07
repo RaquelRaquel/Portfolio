@@ -20,9 +20,10 @@ The code below opens, reads, and list data for both files, Google Play and App S
 
 
 ```python
+from csv import reader
+
 # The ios apps file from Apple Store.
 open_file_ios = open("AppleStore.csv")
-from csv import reader
 read_file_ios = reader(open_file_ios)
 app_data_ios = list(read_file_ios)
 ios_header = app_data_ios[0]
@@ -32,7 +33,6 @@ ios_data = app_data_ios[1:]
 
 #The android apps file from Google Play store.
 open_file_android = open("googleplaystore.csv")
-from csv import reader
 read_file_android = reader(open_file_android)
 app_data_android = list(read_file_android)
 android_header = app_data_android[0]
