@@ -1,18 +1,21 @@
 title: Raquel Merced # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Professional with experience in math, research, and data analysis. Trained in statistics and computer programming languages with solid communication skills. Enthusiastic about organizational success and development. A team player and able to analyze, solve problems, innovate, and follow through on projects.
-  <br>
-  <br>
-   
+  Professional with experience in math, research, and data analysis. Trained in statistics and computer programming languages 
+  with solid communication skills. Enthusiastic about organizational success and development. A team player and able to analyze, solve problems, 
+  innovate, and follow through on projects.
   <br>
   <br>
   <a href="https://www.linkedin.com/in/raquel-merced/">LinkedIn Profile</a> 
+   <br>
   <a href="https://public.tableau.com/app/profile/raquel.merced">Tableau Public Portfolio</a>  
   <br>
   <br>
    <br>
   <br>
+   <br>
+  <br>
+   <br>
  
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
