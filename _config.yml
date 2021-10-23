@@ -7,10 +7,12 @@ description: > # your text below (remove <br> elements if you don't need line br
    
   <br>
   <br>
-  <a href="https://www.linkedin.com/in/raquel-merced/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/raquel-merced/">LinkedIn Profile</a> 
    <br>
   <br>
-  <a href="https://public.tableau.com/app/profile/raquel.merced">View My Tableau Public Portfolio</a>  <br>
+  <a href="https://public.tableau.com/app/profile/raquel.merced">Tableau Public Portfolio</a>  <br>
+  <br>
+   <br>
   <br>
  
 theme: jekyll-theme-minimal
