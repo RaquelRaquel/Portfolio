@@ -16,14 +16,14 @@
 <br>
 <br>
 
-## [Member Ridership Dashboard](http://public.tableau.com/views/Webanalytics_TakeHome_RMerced/WebTrafficDashboard)
+## [Member Ridership Dashboard](http://public.tableau.com/views/MemberRidershipDashboard_16324454650080/MemberRidershipDashboard)
 <br>
-[<img alt="Data Dashboards" src="images/RegionalSalesScorecard.jpeg?raw=true"/>](http://public.tableau.com/views/MemberRidershipDashboard_16324454650080/MemberRidershipDashboard)           
+[<img alt="Data Dashboards" src="images/MemberRidershipDashboard.jpeg?raw=true"/>](http://public.tableau.com/views/MemberRidershipDashboard_16324454650080/MemberRidershipDashboard)           
 
 <br>
 <br>
 
-## [Region Sales Scorecard](http://public.tableau.com/views/LogiComITServiceDeskTickets_16335238687230/ITServiceTickets)
+## [Region Sales Scorecard](http://public.tableau.com/views/RegionSalesScorecard_16322651780790/RegionalSalesScorecard)
 <br>
-[<img alt="Data Dashboards 4" src="images/MemberRidershipDashboard.jpeg?raw=true"/>](http://public.tableau.com/views/RegionSalesScorecard_16322651780790/RegionalSalesScorecard)    
+[<img alt="Data Dashboards 4" src="images/RegionalSalesScorecard.jpeg?raw=true"/>](http://public.tableau.com/views/RegionSalesScorecard_16322651780790/RegionalSalesScorecard)    
 
