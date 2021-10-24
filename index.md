@@ -2,9 +2,7 @@
 
 ---
 
-### Data Dasboards
-
-[Data Dashboards](/Tableau_Dashboards)
+### [Data Dashboards](/Tableau_Dashboards)
 <br>
 [<img alt="Data Dashboards" src="images/Data_Viz.jpeg?raw=true"/>](/Tableau_Dashboards)
 
