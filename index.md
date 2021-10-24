@@ -6,7 +6,7 @@
 
 [Data Dashboards](/Tableau_Dashboards)
 <br>
-<img src="images/Data_viz.png?raw=true"/>
+<img src="images/Data_viz.jpeg?raw=true"/>
 
 
 ---
