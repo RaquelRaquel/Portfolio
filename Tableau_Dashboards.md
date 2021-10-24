@@ -1,6 +1,6 @@
 layout: page
 title: "Tableau Dashboards"
-permalink: /https://github.com/RaquelRaquel/RaquelRaquel.github.io/edit/master/Tableau_Dashboards.md/
+permalink: https://github.com/RaquelRaquel/RaquelRaquel.github.io/edit/master/Tableau_Dashboards.md
 
 
 
