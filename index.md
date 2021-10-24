@@ -15,13 +15,13 @@
 
 [Find and Delete Missing Data](/Find_and_Delete_Missing_Data)
 <br>
-
 [<img alt="Find and Delete Missing Data" src="images/missing_data.jpeg?raw=true" />](/Find_and_Delete_Missing_Data)
 ---
 
 [Separate Duplicate Data](/Separate_Duplicates_from_Dataset)
 <br>
-<img src="images/separate_duplicates.jpg?raw=true"/>
+[<img alt="Separate Duplicate Data" src="images/separate_duplicates.jpg?raw=true" />](/Separate_Duplicates_from_Dataset)
+
 
 
 
