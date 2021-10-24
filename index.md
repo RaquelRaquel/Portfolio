@@ -4,6 +4,15 @@
 
 ### Python 
 
+[Data Vizualizations](/Tableau_Dashboards)
+<br>
+<a href='https://www.freepik.com/vectors/infographic'>Infographic vector created by rawpixel.com - www.freepik.com</a>
+<img src="images/missing_data.jpeg?raw=true"/>
+
+---
+
+### Python 
+
 [Find and Delete Missing Data](/Find_and_Delete_Missing_Data)
 <br>
 <img src="images/missing_data.jpeg?raw=true"/>
