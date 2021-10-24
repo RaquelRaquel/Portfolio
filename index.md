@@ -5,7 +5,7 @@
 
 ### [Data Dashboards](/Tableau_Dashboards)
 <br>
-[<img alt="Data Dashboards" src="images/data_viz_3.jpeg?raw=true" width="400" height="400"/>](/Tableau_Dashboards)
+[<img alt="Data Dashboards" src="images/data_viz_3.jpeg?raw=true" width="300" height="400"/>](/Tableau_Dashboards)
 
 
 ---
@@ -14,13 +14,13 @@
 
 [Find and Delete Missing Data](/Find_and_Delete_Missing_Data)
 <br>
-[<img alt="Find and Delete Missing Data" src="images/missing_data.jpeg?raw=true" width="400" height="400"/>](/Find_and_Delete_Missing_Data)
+[<img alt="Find and Delete Missing Data" src="images/missing_data.jpeg?raw=true" width="300" height="400"/>](/Find_and_Delete_Missing_Data)
 <br>
 ---
 
 [Separate Duplicate Data](/Separate_Duplicates_from_Dataset)
 <br>
-[<img alt="Separate Duplicate Data" src="images/separate_duplicates.jpg?raw=true" width="400" height="400"/>](/Separate_Duplicates_from_Dataset)
+[<img alt="Separate Duplicate Data" src="images/separate_duplicates.jpg?raw=true" width="300" height="400"/>](/Separate_Duplicates_from_Dataset)
 
 
 
