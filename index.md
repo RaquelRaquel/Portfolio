@@ -4,7 +4,7 @@
 
 ### Python 
 
-[Data Vizualizations](/Tableau_Dashboards)
+[Data Dashboards](/Tableau_Dashboards)
 <br>
 <img src="images/Data_viz.png?raw=true"/>
 
