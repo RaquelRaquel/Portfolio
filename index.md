@@ -5,7 +5,7 @@
 
 ### [Data Dashboards](/Tableau_Dashboards)
 <br>
-[<img alt="Data Dashboards" src="images/data_viz_3.jpeg?raw=true" width="300" height="300"/>](/Tableau_Dashboards)
+[<img alt="Data Dashboards" src="images/Dashboard_Data_Graph.png" width="300" height="300"/>](/Tableau_Dashboards)   
 
 
 ---
