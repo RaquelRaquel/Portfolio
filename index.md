@@ -1,16 +1,16 @@
-## Portfolio
+# Portfolio
 
 
 ---
 
-### [Data Dashboards](/Tableau_Dashboards)
+## [Data Dashboards](/Tableau_Dashboards)
 <br>
 [<img alt="Data Dashboards" src="images/Dashboard_Data_Graph.png" width="300" height="300"/>](/Tableau_Dashboards)   
 
 
 ---
 
-### Python 
+## Python 
 
 [Find and Delete Missing Data](/Find_and_Delete_Missing_Data)
 <br>
