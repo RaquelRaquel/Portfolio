@@ -18,7 +18,7 @@
 <br>
 ---
 
-###[Separate Duplicate Data](/Separate_Duplicates_from_Dataset)
+[Separate Duplicate Data](/Separate_Duplicates_from_Dataset)
 <br>
 [<img alt="Separate Duplicate Data" src="images/separate_duplicates.jpg?raw=true" width="400" height="400"/>](/Separate_Duplicates_from_Dataset)
 
