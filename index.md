@@ -16,7 +16,7 @@
 <br>
 [<img alt="Find and Delete Missing Data" src="images/missing_data.jpeg?raw=true" width="400" height="400"/>](/Find_and_Delete_Missing_Data)
 <br>
----
+
 
 [Separate Duplicate Data](/Separate_Duplicates_from_Dataset)
 <br>
