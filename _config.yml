@@ -1,4 +1,4 @@
-title: Raquel Merced # your name (or website title) here
+title: Raquel M.# your name (or website title) here
 logo: "/images/profile_pic.jpg"  #"/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   As a data scientist, I specialize in developing data-driven solutions that enhance productivity, accuracy, and efficiency in internal data processing. 
@@ -7,10 +7,10 @@ description: > # your text below (remove <br> elements if you don't need line br
 
   <br>
  
-  <a href="https://www.linkedin.com/in/raquel-merced/">LinkedIn Profile</a> 
+ <!-- <a href="https://www.linkedin.com/in/raquel-merced/">LinkedIn Profile</a> -->
 
   <br>
-  <a href="https://public.tableau.com/app/profile/raquel.merced">Tableau Public Portfolio</a>  
+ <!-- <a href="https://public.tableau.com/app/profile/raquel.merced">Tableau Public Portfolio</a>  -->
   <br>
 
 
